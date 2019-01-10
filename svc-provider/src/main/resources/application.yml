@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: svc-provider
+
+server:
+  port: 20001
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
